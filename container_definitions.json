@@ -1,0 +1,13 @@
+[
+    {
+        "name": "dev",
+        "image": "nginx:latest",
+        "essetial": true,
+        "portMappings": [
+            {
+                "protocol": "tcp",
+                "containerPort": 80
+            }
+        ]
+    }
+]
